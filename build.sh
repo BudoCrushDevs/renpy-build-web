@@ -11,6 +11,7 @@ tar -xf ./${sdk_name}.tar.bz2
 rm ./${sdk_name}.tar.bz2
 mv ./${sdk_name} ../renpy
 
+cp -r /web ../renpy/
 
 
 
