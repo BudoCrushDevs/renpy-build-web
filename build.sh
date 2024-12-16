@@ -12,4 +12,4 @@ tar -xf "./${sdk_name}.tar.bz2"
 
 
 echo "../${sdk_name}/renpy.sh" "./${sdk_name}/launcher" web_build "$2" --destination "$3"
-"../${sdk_name}/renpy.sh" "./${sdk_name}/launcher" web_build "$2" --destination "$3"
+"./${sdk_name}/renpy.sh" "./${sdk_name}/launcher" web_build "$2" --destination "$3"
