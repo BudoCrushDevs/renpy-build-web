@@ -1,4 +1,4 @@
-# Build Ren'Py Project
+# Build Ren'Py Project (Readme is obsolete, read the code)
 
 This GitHub action allows you to make distributable builds of a Ren'Py visual novel project in a workflow and use the built files for distribution.
 
