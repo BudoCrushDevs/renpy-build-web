@@ -9,7 +9,7 @@ echo "Downloaded SDK version (${sdk_name})."
 echo "Setting up the specified SDK (${sdk_name})..."
 tar -xf "./${sdk_name}.tar.bz2"
 rm "./${sdk_name}.tar.bz2"
-mv "./${sdk_name} ../renpy"
+mv "./${sdk_name}" "../renpy"
 
 
 ../renpy/renpy.sh ../renpy/launcher web_build "$2" --destination "$3"
