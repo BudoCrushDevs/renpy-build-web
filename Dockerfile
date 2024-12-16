@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add bzip2 wget libxext6 mesa-utils
+RUN apk add bzip2 wget mesa-utils
 
 COPY build.sh /build.sh
 
